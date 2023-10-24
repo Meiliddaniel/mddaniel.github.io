@@ -15,7 +15,6 @@ a{
 }
 
 
-
 h1{
     color: var(--red, #8D2E26);
     font-family: 'Bakbak One', sans-serif;
@@ -56,6 +55,8 @@ nav{
     justify-content:space-between;
 
 }
+
+
 
 body{
     background-color: #212121;
@@ -128,4 +129,8 @@ section{
 }
 #contact{
     grid-column: 5/9;
+}
+
+#logo{
+    grid-column: 5/8;
 }
