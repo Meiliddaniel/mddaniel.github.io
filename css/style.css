@@ -8,6 +8,16 @@ html{
 
 }
 
+body{
+    background-color: #212121;
+    font-family: 'Bakbak One', sans-serif;
+    line-height: 1.5;
+    color:#B97974;
+    max-width: 70.25rem;
+    margin: 5rem auto;
+
+}
+
 a{
     color:( #574634);
     text-decoration: none;
@@ -53,32 +63,25 @@ nav{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    
 
+}
+
+nav h1 {
+    color:#574634;
+}
+
+nav h1:hover {
+    color: #6E7860; 
 }
 
 
 
-body{
-    background-color: #212121;
-    font-family: 'Bakbak One', sans-serif;
-    line-height: 1.5;
-    color:#B97974;
-    max-width: 70.25rem;
-    margin: 5rem auto;
 
-}
 
 main{
 
 
 }
-
-footer{
-text-align: right;
-
-}
-
 
 section{
     margin: 9.25rem auto;
@@ -88,9 +91,18 @@ section{
     grid-auto-flow: dense;
 }
 
+
+
+footer{
+text-align: right;
+
+}
+
+
+
+
 #stripe{
-    text-align: center;
-    grid-column: 0/13;
+    grid-column: 1/13; 
 }
 
 #project_1{
@@ -99,30 +111,51 @@ section{
 #description_1{
     grid-column:  6/11;
 }
+#description_1 h1,h2,p{
+    color: #B97974; 
+
+}
+
 #project_2{
     grid-column: 9/13;
 }
 #description_2{
     grid-column: 2/8;
 }
+#description_2 h1,h2,p{
+    color:#867563
+}
+
 #project_3{
     grid-column: 1/5;
 }
 #description_3{
     grid-column: 6/11;
 }
+#description_3 h1,h2,p{
+    color:#6E7860
+}
+
 #project_4{
     grid-column: 9/13;
 }
 #description_4{
     grid-column: 2/8;
 }
+#description_4 h1,h2,p{
+    color: #B97974
+}
+
 #project_5{
     grid-column: 1/5;
 }
 #description_5{
     grid-column: 6/11;
 }
+#description_5 h1,h2,p{
+    color:#867563
+}
+
 #about_photo{
     grid-column: 2/6
 }
@@ -130,13 +163,14 @@ section{
     grid-column: 6/11;
 }
 #contact{
+    margin: 2em auto; 
     text-align: center;
-    grid-column: 5/10;
 }
 
 #logo{
     grid-column: 5/8;
 }
 #contact_circle{
-    grid-column: 3/9;
+   margin: 2em auto; 
+   text-align: center;
 }
