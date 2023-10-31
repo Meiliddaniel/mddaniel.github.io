@@ -34,7 +34,7 @@ h1{
     line-height: normal;
 }
 h2{
-    color: var(--red-light, #B97974);
+    color: var(--red-light, #b69a84);
     font-family:'Tajawal', sans-serif;
     font-size: 1.5625rem;
     font-style: normal;
@@ -42,7 +42,7 @@ h2{
     line-height: normal;
 }
 p{
-    color: var(--red-light, #B97974);
+    color: var(--red-light, #b69a84);
     font-family: 'Tajawal', sans-serif;
     font-size: 1.1875rem;
     font-style: normal;
@@ -111,30 +111,12 @@ text-align: right;
 #description_1{
     grid-column:  6/11;
 }
-#description_1 h1{
-    color: #B97974; 
-}
-#description_1 h2{
-    color: #B97974;
-}
-#description_1 p{
-    color: #B97974;
-}
 
 #project_2{
     grid-column: 9/13;
 }
 #description_2{
     grid-column: 2/8;
-}
-#description_2 h1{
-    color:#867563
-}
-#description_2 h2{
-    color:#867563;
-}
-#description_2 p{
-    color: #867563;
 }
 
 #project_3{
@@ -143,15 +125,6 @@ text-align: right;
 #description_3{
     grid-column: 6/11;
 }
-#description_3 h1{
-    color:#6E7860
-}
-#description_3 h2{
-    color: #6E7860;
-}
-#description_3 p{
-    color: #6E7860;
-}
 
 #project_4{
     grid-column: 9/13;
@@ -159,30 +132,14 @@ text-align: right;
 #description_4{
     grid-column: 2/8;
 }
-#description_4 h1{
-    color: #B97974
-}
-#description_4 h2{
-    color: #B97974;
-}
-#description_4 p{
-    color: #B97974;
-}
+
 #project_5{
     grid-column: 1/5;
 }
 #description_5{
     grid-column: 6/11;
 }
-#description_5 h1{
-    color:#867563
-}
-#description_5 h2{
-    color: #867563;
-}
-#description_5 p{
-    color: #867563;
-}
+
 
 
 #about_photo{
