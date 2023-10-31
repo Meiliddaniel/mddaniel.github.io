@@ -151,6 +151,7 @@ text-align: right;
     grid-column: 6/11;
 }
 #contact{
+    grid-column: 4/11;
     margin: 2em auto; 
     text-align: center;
 }
@@ -160,8 +161,4 @@ text-align: right;
 }
 #logo2{
     grid-column: 5/8;
-}
-#contact_circle{
-   margin: 2em auto; 
-   text-align: center;
 }
