@@ -95,11 +95,13 @@ section{
 
 footer{
 text-align: right;
-
-
 }
 
-
+#byline{
+    grid-column: 3/11;
+    text-align: center;
+    color:#8D2E26;
+}
 
 #stripe{
     grid-column: 1/13; 
