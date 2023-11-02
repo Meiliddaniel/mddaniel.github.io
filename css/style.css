@@ -88,6 +88,8 @@ footer h2:hover{
     color: #6E7860;
 }
 
+
+
 main{
 
 }
@@ -174,4 +176,7 @@ footer{
 }
 #logo2{
     grid-column: 5/8;
+}
+#slogo{
+    grid-column: 7/11;
 }
