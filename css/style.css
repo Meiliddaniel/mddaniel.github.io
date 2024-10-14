@@ -28,7 +28,7 @@ a{
 h1{
     color: var(--red, #8D2E26);
     font-family: 'Afacada', sans-serif;
-    font-size: 2.5rem;
+    font-size: 300%;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -182,3 +182,33 @@ footer{
     grid-column: 7/11;
 }
 
+.intro{
+    text-align: center;
+    margin: 20%;
+    margin-bottom: 10%;
+}
+
+
+.column1 {
+    float: left;
+    width: 27%;
+    padding: 40px;
+    padding-right:20px;
+  }
+
+  .column2 {
+    float: left;
+    width: 27%;
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .column3 {
+    float: left;
+    width: 27%;
+    padding: 40px;
+    padding-left:20px;
+  }
+  
+  
