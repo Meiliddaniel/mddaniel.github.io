@@ -190,13 +190,16 @@ footer{
 
 .meilidaniel {
     position: relative;
-    padding-top: 10%;
-    width: 70%;
-    margin-left: 15%;
+    padding-top: 5%;
+    width: 50%;
+    margin-left: 28%;
     text-align: center;
 
 }
 
+.row{
+    padding-top: 10%;
+}
 
 .column1 {
     float: left;
