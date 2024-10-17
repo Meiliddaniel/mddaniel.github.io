@@ -35,7 +35,7 @@ h1{
 }
 
 h1 {
-    font-size: clamp(10px, 2vw, 25px);
+    font-size: clamp(5px, 2vw, 25px);
   }
 
 h2{
