@@ -4,7 +4,7 @@
 
 
 html{
-    font-size: 16px;
+    font-size: 10px;
 }
 
 
@@ -26,15 +26,15 @@ a{
 
 
 h1{
-    color: var(--red, #8D2E26);
+    color: var(--red, #6ba657);
     font-family: 'Afacada', sans-serif;
     font-size: 300%;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 h2{
-    color: var(--red-light, #b69a84);
+    color: var(--red-light, #6ba657);
     font-family:'Tajawal', sans-serif;
     font-size: 1.5625rem;
     font-style: normal;
@@ -42,7 +42,7 @@ h2{
     line-height: normal;
 }
 p{
-    color: var(--red-light, #b69a84);
+    color: var(--red-light, #6ba657);
     font-family: 'Tajawal', sans-serif;
     font-size: 1.1875rem;
     font-style: normal;
@@ -71,13 +71,13 @@ nav h1:hover {
     color: #6E7860; 
 }
 
-#logomark:hover{
-    transform: scale(110%)
+#logomark{
+    scale: 70%;
+    margin-left: -10%;
+
 }
 
-#logo:hover{
-    scale: 110%;
-}
+
 
 footer h2:hover{
     transform: scale(110%);
@@ -116,7 +116,7 @@ footer{
 #byline{
     grid-column: 3/11;
     text-align: center;
-    color:#8D2E26;
+    color:#70b459;
 }
 
 #stripe{
@@ -186,6 +186,15 @@ footer{
     text-align: center;
     margin: 20%;
     margin-bottom: 10%;
+}
+
+.meilidaniel {
+    position: relative;
+    padding-top: 10%;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+
 }
 
 
