@@ -28,7 +28,7 @@ a{
 h1{
     color: var(--red, #6ba657);
     font-family: 'Afacada', sans-serif;
-    font-size: 200%;
+    font-size: 2em;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
